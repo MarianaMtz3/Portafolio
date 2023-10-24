@@ -1,8 +1,8 @@
 /* Barra de navegacion */
 
 .navbar {
-  padding: 2rem;
-  background-color: #f5f6f7;
+  padding: 1rem;
+  background-color: #ade9e7d9;
 }
 
 .navbar-collapse {
@@ -25,13 +25,13 @@ h1 {
 }
 
 .seccion-oscura {
-  color: white;
-  background-color: #1b1b32;
+  color: black;
+  background-color: rgb(205, 180, 219);
 }
 
 .seccion-clara {
   color: black;
-  background-color: white;
+  background-color: rgb(255, 200, 221);
 }
 
 .seccion-titulo {
@@ -42,7 +42,7 @@ h1 {
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #584e4e;
+  color: black;
 }
 
 .seccion-texto {
@@ -65,7 +65,7 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: #f5f6f7;
+  background-color: rgb(189, 224, 254);
   min-height: 450px;
   text-align: center;
 }
@@ -76,7 +76,7 @@ h1 {
 
 .hero-imagen-desarrollador {
   width: 200px;
-  height: 200px;
+  height: 210px;
   margin: 20px;
 }
 
@@ -88,7 +88,7 @@ h1 {
 /* Sobre mi */
 
 .sobre-mi {
-  height: 500px;
+  height: 280px;
   padding: 10px;
 }
 
@@ -101,11 +101,12 @@ h1 {
 
 .experiencia {
   padding: 40px 40px 60px 40px;
+
 }
 
 .experiencia .columna {
   padding: 20px;
-  border: 2px solid #8080804d;
+  border: 2px solid rgba(245, 245, 245, 0.868);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -114,14 +115,14 @@ h1 {
 }
 
 .experiencia .columna:hover {
-  color: white;
-  background-color: #1b1b32;
+  color: whitesmoke;
+  background-color: rgb(205, 180, 219);
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
-  background-color: #0a0a23;
+  color: whitesmoke;
+  background-color: rgb(189, 224, 254);
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -139,7 +140,7 @@ h1 {
 }
 
 .badge {
-  margin: 5px;
+  margin: 10px;
 }
 
 /* Proyectos */
@@ -200,61 +201,6 @@ h1 {
   margin: 10px;
 }
 
-
-/* Testimonios */
-
-.testimonios {
-  padding: 40px 40px 80px 40px;
-}
-
-.testimonios .carousel {
-  max-width: 800px;
-}
-
-.carousel-item {
-  height: 500px;
-}
-
-.carousel-item .container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.testimonio-imagen {
-  height: 150px;
-  width: 150px;
-  margin: 10px 10px 20px 10px;
-}
-
-.testimonio-texto {
-  max-width: 70%;
-  font-size: 20px;
-  text-align: center;
-  font-family: 'Share Tech Mono', monospace;
-}
-
-.testimonio-info {
-  font-weight: bold;
-  text-align: center;
-}
-
-.testimonio-info p {
-  margin-bottom: 0;
-}
-
-.testimonio-footer .cliente {
-  font-size: 1.2rem;
-}
-
-.testimonio-info .cargo {
-  font-size: 0.9rem;
-  color: #656060;
-}
-
 /* Contacto */
 
 .contacto .container {
@@ -265,7 +211,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: rgb(189, 224, 254);
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -314,8 +260,8 @@ footer {
 }
 
 .footer-logo {
-  height: 80px;
-  width: 80px;
+  height: 120px;
+  width: 120px;
   margin: 10px;
 }
 
@@ -347,7 +293,7 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  border: 2px solid rgb(162, 210, 255);
 }
 
 .iconos-redes-sociales a:hover i {
@@ -356,7 +302,7 @@ footer {
 
 .derechos-de-autor {
   font-size: 15px;
-  color: #aeaeae;
+  color: #747272;
   padding: 20px;
 }
 
